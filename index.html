@@ -4,29 +4,53 @@
   -->
 
 
-<!DOCTYPE html>
-<html lang="en">
-  <head>
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>HTML/CSS Studio</title>
-    <!-- import CSS styles -->
-    <link rel="stylesheet" href="styles.css" /> 
-  </head>
-
-  <!-- page content goes into <body> -->
-  <body>
-    <div id="logoBar">
-      <h1>Welcome to 100 Acre Wood!</h1>
-      <img id="siteLogo" alt="Pooh-bear site logo" src="./assets/Header.png"/>
-      <h3>We're glad you're here :D</h3>
-    </div>
-    <hr/>
-    <div id="staffGallery">
-      <img class="galleryImage" src="./assets/Eeyore-Eh.png"/>
-      <img class="galleryImage" src="./assets/Eeyore-Zz.png"/>
-      <img class="galleryImage" src="./assets/Kanga-Roo.png"/>
-      <img class="galleryImage" src="./assets/Owl-Phone.png"/>
-    </div>
-  </body>
-
-</html>
+  <!DOCTYPE html>
+  <html lang="en">
+    <head>
+      <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+      <title>HTML/CSS Studio</title>
+      <!-- import CSS styles -->
+      <link rel="stylesheet" href="styles.css" /> 
+    </head>
+  
+    <!-- page content goes into <body> -->
+    <body style="background-color:skyblue;">
+    </body>
+    <body>
+      <div id="logoBar">
+        <h1 style="color:aliceblue">Welcome to 100 Acre Wood!</h1>
+        <img id="siteLogo" alt="Pooh-bear site logo" src="./assets/Header.png"/>
+        <h3 style="font-family:sans-serif">We're glad you're here :D</h3>
+      </div>
+      <hr/>
+      <div id="staffGallery">
+        <div class="flex-container">
+          <div class="card">
+            <img class="galleryImage" src="./assets/Eeyore-Eh.png"/ style="width:100%">
+            <div class="container">
+              <h4><b>Eeyore</b></h4>
+            </div>
+          </div>
+          <div class="card">
+            <img class="galleryImage" src="./assets/Eeyore-Zz.png"/ style="width:100%">
+            <div class="container">
+              <h4><b>Eeyore-Zz</b></h4>
+            </div>
+          </div>
+          <div class="card">
+            <img class="galleryImage" src="./assets/Kanga-Roo.png"/ style="width:100%">
+            <div class="container">
+              <h4><b>Kangaroo</b></h4>
+            </div>
+          </div>
+          <div class="card">
+            <img class="galleryImage" src="./assets/Owl-Phone.png"/ style="width:100%">
+            <div class="container">
+              <h4><b>Owl</b></h4>
+            </div>
+          </div>
+        </div>
+      </div>
+    </body>
+  
+  </html>
